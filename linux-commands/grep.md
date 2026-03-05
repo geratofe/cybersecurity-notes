@@ -182,6 +182,11 @@ This finds log files and searches them for errors.
 
 ---
 
+## Search the entire system for passwords
+
+```bash
+grep -Ri "password" / 2>/dev/null
+
 # Why grep is powerful
 
 `grep` is powerful because it can:
