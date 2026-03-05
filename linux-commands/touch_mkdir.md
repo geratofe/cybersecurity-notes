@@ -1,23 +1,29 @@
 # Touch and Mkdir Commands
 
 This file covers both `mkdir` (make directories) and `touch` (create empty files or update timestamps).  
-These commands are basic but very useful in **Linux scripting, automation, and pentesting**.
+These commands are basic but very useful in Linux **scripting, automation, and pentesting**.
 
 ---
 
-+## mkdir Command
+## mkdir Command
 
-+`mkdir` is used to create **directories** in Linux.
+`mkdir` is used to create **directories** in Linux.
 
-+### Basic Usage
+### Basic Usage
 
 ```bash
 mkdir new_folder
 ```
 
-Creates a directory called `new_folder`.
+- Creates a directory called `new_folder`.
 
-+### Options
+```bash
+mkdir /home/user/test_folder
+```
+
+- Creates a folder at a specific path.
+
+### Options
 
 | Option | Description |
 |--------|-------------|
@@ -26,33 +32,27 @@ Creates a directory called `new_folder`.
 | `-m` | Set permissions for the directory |
 | `--help` | Show help |
 
-+### Examples
+### Examples
 
-- Create a single directory:
+- Single directory:
 
 ```bash
 mkdir test_folder
 ```
 
-- Create nested directories:
+- Nested directories:
 
 ```bash
 mkdir -p folder1/folder2/folder3
 ```
 
-- Create a directory and see confirmation:
-
-```bash
-mkdir -v my_folder
-```
-
-- Create multiple directories at once:
+- Multiple directories at once:
 
 ```bash
 mkdir folderA folderB folderC
 ```
 
-+### Pentesting Uses
+### Personal / Pentesting Uses
 
 - Quickly create **workspace directories**:
 
@@ -60,7 +60,7 @@ mkdir folderA folderB folderC
 mkdir pentest_reports && cd pentest_reports
 ```
 
-- Organize **collected files**:
+- Organize collected files:
 
 ```bash
 mkdir screenshots logs exploits
@@ -68,19 +68,19 @@ mkdir screenshots logs exploits
 
 ---
 
-+## touch Command
+## touch Command
 
-+`touch` is used to **create empty files** or **update timestamps** of existing files.
+`touch` is used to **create empty files** or **update timestamps** of existing files.
 
-+### Basic Usage
+### Basic Usage
 
 ```bash
 touch file.txt
 ```
 
-- Creates an empty file called `file.txt`
+- Creates an empty file called `file.txt`.
 
-+### Options
+### Options
 
 | Option | Description |
 |--------|-------------|
@@ -90,7 +90,7 @@ touch file.txt
 | `-m` | Change only the modification time |
 | `--help` | Show help |
 
-+### Examples
+### Examples
 
 - Create multiple files:
 
@@ -98,7 +98,7 @@ touch file.txt
 touch file1.txt file2.txt file3.txt
 ```
 
-- Update the timestamp of an existing file:
+- Update timestamp of existing file:
 
 ```bash
 touch -m existing_file.txt
@@ -106,9 +106,9 @@ touch -m existing_file.txt
 
 ---
 
-+## Combined mkdir + touch
+## Combined mkdir + touch
 
-- Create a directory and a file inside in **one line**:
+- Create a directory and a file inside:
 
 ```bash
 mkdir new_folder && touch new_folder/newfile.txt
@@ -134,9 +134,9 @@ mkdir important_folder && touch important_folder/notes.txt && echo "Setup comple
 
 ---
 
-+## Notes
+## Notes / Personal Tips
 
-- `mkdir` → **directories**  
-- `touch` → **files**  
-- Using them together is common in **scripting and pentesting** to quickly create workspaces or collect outputs  
-- Combine with other commands (`grep`, `find`) for **automation**  
+- `mkdir` → for directories, `touch` → for files.  
+- Using them together is common in **scripting and pentesting**.  
+- I like to **create a workspace first**, then move files around with `mv` or copy with `cp`.  
+- Combine with `find`, `grep`, and `>>` for **automation and logs**.  
