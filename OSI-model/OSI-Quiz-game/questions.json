@@ -1,0 +1,1436 @@
+[
+  {
+    "question": "What does OSI stand for?",
+    "options": ["A) Open Systems Interconnection", "B) Open Software Interface", "C) Optical Signal Interface", "D) Open Source Integration"],
+    "answer": "A",
+    "layer": "General"
+  },
+  {
+    "question": "How many layers does the OSI model have?",
+    "options": ["A) 5", "B) 6", "C) 7", "D) 8"],
+    "answer": "C",
+    "layer": "General"
+  },
+  {
+    "question": "Which organization developed the OSI model?",
+    "options": ["A) IEEE", "B) ISO", "C) IETF", "D) ANSI"],
+    "answer": "B",
+    "layer": "General"
+  },
+  {
+    "question": "What is the correct order of OSI layers from bottom to top?",
+    "options": ["A) Physical, Data Link, Network, Transport, Session, Presentation, Application", "B) Application, Presentation, Session, Transport, Network, Data Link, Physical", "C) Physical, Network, Data Link, Transport, Session, Application, Presentation", "D) Application, Session, Presentation, Transport, Network, Physical, Data Link"],
+    "answer": "A",
+    "layer": "General"
+  },
+  {
+    "question": "Which mnemonic helps remember OSI layers from bottom to top?",
+    "options": ["A) Please Do Not Throw Sausage Pizza Away", "B) All People Seem To Need Data Processing", "C) Please Do Not Touch Steve's Pet Alligator", "D) Both A and C"],
+    "answer": "D",
+    "layer": "General"
+  },
+  {
+    "question": "Which layer is responsible for end-to-end communication?",
+    "options": ["A) Network", "B) Session", "C) Transport", "D) Data Link"],
+    "answer": "C",
+    "layer": "Transport"
+  },
+  {
+    "question": "At which layer does routing occur?",
+    "options": ["A) Layer 2", "B) Layer 3", "C) Layer 4", "D) Layer 5"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "Which layer converts data into bits for transmission?",
+    "options": ["A) Data Link", "B) Presentation", "C) Physical", "D) Network"],
+    "answer": "C",
+    "layer": "Physical"
+  },
+  {
+    "question": "What is the PDU (Protocol Data Unit) at the Transport layer?",
+    "options": ["A) Frame", "B) Packet", "C) Segment", "D) Bit"],
+    "answer": "C",
+    "layer": "Transport"
+  },
+  {
+    "question": "What is the PDU at the Network layer?",
+    "options": ["A) Frame", "B) Packet", "C) Segment", "D) Bit"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "What is the PDU at the Data Link layer?",
+    "options": ["A) Bit", "B) Packet", "C) Segment", "D) Frame"],
+    "answer": "D",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What is the PDU at the Physical layer?",
+    "options": ["A) Frame", "B) Bit", "C) Packet", "D) Segment"],
+    "answer": "B",
+    "layer": "Physical"
+  },
+  {
+    "question": "Which layer is responsible for MAC addressing?",
+    "options": ["A) Physical", "B) Network", "C) Data Link", "D) Transport"],
+    "answer": "C",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Which layer handles IP addressing?",
+    "options": ["A) Data Link", "B) Transport", "C) Network", "D) Session"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "Which layer manages dialog control between systems?",
+    "options": ["A) Transport", "B) Presentation", "C) Application", "D) Session"],
+    "answer": "D",
+    "layer": "Session"
+  },
+  {
+    "question": "Which layer is responsible for data encryption and decryption?",
+    "options": ["A) Application", "B) Presentation", "C) Session", "D) Transport"],
+    "answer": "B",
+    "layer": "Presentation"
+  },
+  {
+    "question": "Which layer provides network services directly to user applications?",
+    "options": ["A) Session", "B) Presentation", "C) Application", "D) Transport"],
+    "answer": "C",
+    "layer": "Application"
+  },
+  {
+    "question": "A switch operates at which OSI layer?",
+    "options": ["A) Layer 1", "B) Layer 2", "C) Layer 3", "D) Layer 4"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "A hub operates at which OSI layer?",
+    "options": ["A) Layer 1", "B) Layer 2", "C) Layer 3", "D) Layer 4"],
+    "answer": "A",
+    "layer": "Physical"
+  },
+  {
+    "question": "A router operates at which OSI layer?",
+    "options": ["A) Layer 1", "B) Layer 2", "C) Layer 3", "D) Layer 4"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "Which protocol operates at the Application layer?",
+    "options": ["A) TCP", "B) IP", "C) HTTP", "D) ARP"],
+    "answer": "C",
+    "layer": "Application"
+  },
+  {
+    "question": "Which protocol operates at the Transport layer?",
+    "options": ["A) IP", "B) UDP", "C) ARP", "D) Ethernet"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "Which protocol operates at the Network layer?",
+    "options": ["A) TCP", "B) HTTP", "C) IP", "D) FTP"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "What does TCP stand for?",
+    "options": ["A) Transfer Control Protocol", "B) Transmission Control Protocol", "C) Transport Communication Protocol", "D) Transmission Channel Protocol"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "What does UDP stand for?",
+    "options": ["A) User Datagram Protocol", "B) Universal Data Protocol", "C) Unified Datagram Protocol", "D) User Data Packet"],
+    "answer": "A",
+    "layer": "Transport"
+  },
+  {
+    "question": "Which layer of the OSI model is Layer 1?",
+    "options": ["A) Data Link", "B) Network", "C) Physical", "D) Transport"],
+    "answer": "C",
+    "layer": "Physical"
+  },
+  {
+    "question": "Which layer of the OSI model is Layer 7?",
+    "options": ["A) Session", "B) Presentation", "C) Transport", "D) Application"],
+    "answer": "D",
+    "layer": "Application"
+  },
+  {
+    "question": "Which layer of the OSI model is Layer 4?",
+    "options": ["A) Network", "B) Transport", "C) Session", "D) Data Link"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "Which layer of the OSI model is Layer 3?",
+    "options": ["A) Physical", "B) Data Link", "C) Network", "D) Transport"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "What does HTTP stand for?",
+    "options": ["A) HyperText Transfer Protocol", "B) High Transfer Text Protocol", "C) Host Transfer Text Protocol", "D) HyperText Transmission Protocol"],
+    "answer": "A",
+    "layer": "Application"
+  },
+  {
+    "question": "What does FTP stand for?",
+    "options": ["A) Fast Transfer Protocol", "B) File Transfer Protocol", "C) Format Transfer Protocol", "D) File Transmission Process"],
+    "answer": "B",
+    "layer": "Application"
+  },
+  {
+    "question": "What does SMTP stand for?",
+    "options": ["A) Simple Mail Transfer Protocol", "B) Standard Mail Transmission Protocol", "C) Secure Message Transfer Protocol", "D) Simple Message Transmission Process"],
+    "answer": "A",
+    "layer": "Application"
+  },
+  {
+    "question": "What does DNS stand for?",
+    "options": ["A) Dynamic Name System", "B) Domain Name System", "C) Distributed Network Service", "D) Data Name Server"],
+    "answer": "B",
+    "layer": "Application"
+  },
+  {
+    "question": "What does DHCP stand for?",
+    "options": ["A) Dynamic Host Configuration Protocol", "B) Dynamic Host Control Protocol", "C) Distributed Host Configuration Protocol", "D) Dynamic Hardware Configuration Protocol"],
+    "answer": "A",
+    "layer": "Application"
+  },
+  {
+    "question": "Which layer is responsible for flow control and error recovery?",
+    "options": ["A) Network", "B) Data Link", "C) Transport", "D) Session"],
+    "answer": "C",
+    "layer": "Transport"
+  },
+  {
+    "question": "What is encapsulation in the OSI model?",
+    "options": ["A) Encrypting data at the Presentation layer", "B) Adding headers/trailers as data moves down the layers", "C) Routing packets to their destination", "D) Converting data to binary"],
+    "answer": "B",
+    "layer": "General"
+  },
+  {
+    "question": "What is decapsulation in the OSI model?",
+    "options": ["A) Removing headers/trailers as data moves up the layers", "B) Adding headers as data moves up the layers", "C) Encrypting data at the receiver", "D) Converting bits to frames"],
+    "answer": "A",
+    "layer": "General"
+  },
+  {
+    "question": "Which layer handles multiplexing of data streams?",
+    "options": ["A) Network", "B) Session", "C) Transport", "D) Data Link"],
+    "answer": "C",
+    "layer": "Transport"
+  },
+  {
+    "question": "Which sublayer of the Data Link layer handles MAC addresses?",
+    "options": ["A) LLC", "B) MAC", "C) NIC", "D) PHY"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What does LLC stand for in the Data Link layer?",
+    "options": ["A) Logical Link Control", "B) Local Link Control", "C) Logical Layer Control", "D) Link Level Control"],
+    "answer": "A",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Which layer is responsible for establishing, managing, and terminating sessions?",
+    "options": ["A) Transport", "B) Presentation", "C) Session", "D) Application"],
+    "answer": "C",
+    "layer": "Session"
+  },
+  {
+    "question": "Which layer handles data compression?",
+    "options": ["A) Application", "B) Session", "C) Transport", "D) Presentation"],
+    "answer": "D",
+    "layer": "Presentation"
+  },
+  {
+    "question": "Which layer handles data format translation?",
+    "options": ["A) Application", "B) Presentation", "C) Session", "D) Transport"],
+    "answer": "B",
+    "layer": "Presentation"
+  },
+  {
+    "question": "What type of address does the Network layer use?",
+    "options": ["A) MAC address", "B) Port number", "C) IP address", "D) Physical address"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "What type of address does the Data Link layer use?",
+    "options": ["A) IP address", "B) Port number", "C) Domain name", "D) MAC address"],
+    "answer": "D",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Which protocol is used to resolve IP addresses to MAC addresses?",
+    "options": ["A) DNS", "B) RARP", "C) ARP", "D) ICMP"],
+    "answer": "C",
+    "layer": "Data Link"
+  },
+  {
+    "question": "ARP stands for?",
+    "options": ["A) Address Resolution Protocol", "B) Automatic Routing Protocol", "C) Address Routing Process", "D) Adaptive Resolution Protocol"],
+    "answer": "A",
+    "layer": "Data Link"
+  },
+  {
+    "question": "ICMP operates at which OSI layer?",
+    "options": ["A) Transport", "B) Data Link", "C) Network", "D) Application"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "What does ICMP stand for?",
+    "options": ["A) Internet Control Message Protocol", "B) Internal Control Management Protocol", "C) Internet Communication Message Protocol", "D) Internal Channel Management Protocol"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "Which command uses ICMP to test network connectivity?",
+    "options": ["A) tracert", "B) ipconfig", "C) ping", "D) netstat"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "What does MAC stand for in networking?",
+    "options": ["A) Media Access Control", "B) Main Address Code", "C) Multiple Access Channel", "D) Media Address Configuration"],
+    "answer": "A",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Which layer is responsible for bit synchronization?",
+    "options": ["A) Data Link", "B) Network", "C) Physical", "D) Transport"],
+    "answer": "C",
+    "layer": "Physical"
+  },
+  {
+    "question": "Which physical media operates at the Physical layer?",
+    "options": ["A) IP packets", "B) Ethernet cables", "C) MAC addresses", "D) TCP segments"],
+    "answer": "B",
+    "layer": "Physical"
+  },
+  {
+    "question": "Which of the following is a connection-oriented protocol at the Transport layer?",
+    "options": ["A) UDP", "B) IP", "C) TCP", "D) ICMP"],
+    "answer": "C",
+    "layer": "Transport"
+  },
+  {
+    "question": "Which of the following is a connectionless protocol at the Transport layer?",
+    "options": ["A) TCP", "B) FTP", "C) HTTP", "D) UDP"],
+    "answer": "D",
+    "layer": "Transport"
+  },
+  {
+    "question": "What is the purpose of port numbers in the Transport layer?",
+    "options": ["A) Identify the source IP", "B) Identify specific applications or services", "C) Identify MAC addresses", "D) Identify routing paths"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "Which port does HTTP use by default?",
+    "options": ["A) 21", "B) 25", "C) 80", "D) 443"],
+    "answer": "C",
+    "layer": "Application"
+  },
+  {
+    "question": "Which port does HTTPS use by default?",
+    "options": ["A) 80", "B) 443", "C) 8080", "D) 22"],
+    "answer": "B",
+    "layer": "Application"
+  },
+  {
+    "question": "Which port does FTP use by default?",
+    "options": ["A) 20 and 21", "B) 22 and 23", "C) 25 and 110", "D) 80 and 443"],
+    "answer": "A",
+    "layer": "Application"
+  },
+  {
+    "question": "Which port does SSH use by default?",
+    "options": ["A) 21", "B) 22", "C) 23", "D) 25"],
+    "answer": "B",
+    "layer": "Application"
+  },
+  {
+    "question": "Which port does Telnet use by default?",
+    "options": ["A) 21", "B) 22", "C) 23", "D) 25"],
+    "answer": "C",
+    "layer": "Application"
+  },
+  {
+    "question": "Which port does DNS use by default?",
+    "options": ["A) 53", "B) 67", "C) 80", "D) 110"],
+    "answer": "A",
+    "layer": "Application"
+  },
+  {
+    "question": "Which port does SMTP use by default?",
+    "options": ["A) 25", "B) 53", "C) 80", "D) 110"],
+    "answer": "A",
+    "layer": "Application"
+  },
+  {
+    "question": "Which port does POP3 use by default?",
+    "options": ["A) 25", "B) 110", "C) 143", "D) 443"],
+    "answer": "B",
+    "layer": "Application"
+  },
+  {
+    "question": "Which port does IMAP use by default?",
+    "options": ["A) 25", "B) 110", "C) 143", "D) 443"],
+    "answer": "C",
+    "layer": "Application"
+  },
+  {
+    "question": "Which port does DHCP server use?",
+    "options": ["A) 53", "B) 67", "C) 80", "D) 161"],
+    "answer": "B",
+    "layer": "Application"
+  },
+  {
+    "question": "What is a well-known port number range?",
+    "options": ["A) 0 - 1023", "B) 1024 - 49151", "C) 49152 - 65535", "D) 0 - 65535"],
+    "answer": "A",
+    "layer": "Transport"
+  },
+  {
+    "question": "What is the registered port number range?",
+    "options": ["A) 0 - 1023", "B) 1024 - 49151", "C) 49152 - 65535", "D) 1000 - 2000"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "What is a dynamic/private port number range?",
+    "options": ["A) 0 - 1023", "B) 1024 - 49151", "C) 49152 - 65535", "D) 30000 - 65535"],
+    "answer": "C",
+    "layer": "Transport"
+  },
+  {
+    "question": "What is the three-way handshake used by TCP?",
+    "options": ["A) SYN, ACK, FIN", "B) SYN, SYN-ACK, ACK", "C) ACK, SYN, FIN", "D) HELLO, CONFIRM, CONNECT"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "Which layer uses sequence numbers to reassemble data?",
+    "options": ["A) Network", "B) Data Link", "C) Transport", "D) Session"],
+    "answer": "C",
+    "layer": "Transport"
+  },
+  {
+    "question": "Which protocol provides unreliable, fast delivery of datagrams?",
+    "options": ["A) TCP", "B) UDP", "C) FTP", "D) HTTPS"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "What does NIC stand for?",
+    "options": ["A) Network Interface Card", "B) Network Internet Controller", "C) Node Interface Circuit", "D) Network Internal Component"],
+    "answer": "A",
+    "layer": "Physical"
+  },
+  {
+    "question": "Which device operates at all seven OSI layers?",
+    "options": ["A) Hub", "B) Switch", "C) Router", "D) Gateway"],
+    "answer": "D",
+    "layer": "General"
+  },
+  {
+    "question": "A repeater operates at which OSI layer?",
+    "options": ["A) Layer 1", "B) Layer 2", "C) Layer 3", "D) Layer 4"],
+    "answer": "A",
+    "layer": "Physical"
+  },
+  {
+    "question": "A bridge operates at which OSI layer?",
+    "options": ["A) Layer 1", "B) Layer 2", "C) Layer 3", "D) Layer 4"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Which layer is responsible for checksums in Ethernet frames?",
+    "options": ["A) Physical", "B) Transport", "C) Data Link", "D) Network"],
+    "answer": "C",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What does CRC stand for in networking?",
+    "options": ["A) Cyclic Redundancy Check", "B) Cyclic Routing Check", "C) Cyclic Redundancy Code", "D) Cyclic Routing Control"],
+    "answer": "A",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What is the size of a MAC address?",
+    "options": ["A) 32 bits", "B) 48 bits", "C) 64 bits", "D) 128 bits"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "How is a MAC address typically represented?",
+    "options": ["A) Decimal notation", "B) Binary notation", "C) Hexadecimal notation", "D) Octal notation"],
+    "answer": "C",
+    "layer": "Data Link"
+  },
+  {
+    "question": "How many bits is an IPv4 address?",
+    "options": ["A) 16 bits", "B) 32 bits", "C) 64 bits", "D) 128 bits"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "How many bits is an IPv6 address?",
+    "options": ["A) 32 bits", "B) 64 bits", "C) 128 bits", "D) 256 bits"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "What is the purpose of a subnet mask?",
+    "options": ["A) Encrypt data packets", "B) Identify the network and host portion of an IP address", "C) Assign MAC addresses", "D) Control port numbers"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "What does TTL stand for in IP headers?",
+    "options": ["A) Time To Live", "B) Transfer To Layer", "C) Time To Leave", "D) Terminal Transport Level"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "What happens when TTL reaches zero?",
+    "options": ["A) The packet is retransmitted", "B) The packet is discarded", "C) The packet is encrypted", "D) The packet is rerouted"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "Which routing protocol is a distance-vector protocol?",
+    "options": ["A) OSPF", "B) BGP", "C) RIP", "D) IS-IS"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "Which routing protocol is a link-state protocol?",
+    "options": ["A) RIP", "B) OSPF", "C) EIGRP", "D) None of the above"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "What does OSPF stand for?",
+    "options": ["A) Open Shortest Path First", "B) Open System Path Forward", "C) Optimized Shortest Path Forward", "D) Open Source Protocol Framework"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "What does BGP stand for?",
+    "options": ["A) Border Gateway Protocol", "B) Basic Gateway Protocol", "C) Bandwidth Gateway Protocol", "D) Border Group Protocol"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "What does RIP stand for?",
+    "options": ["A) Routing Information Protocol", "B) Router Internet Protocol", "C) Routing Internal Process", "D) Remote Internet Protocol"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "Which layer handles token passing and polling?",
+    "options": ["A) Physical", "B) Network", "C) Data Link", "D) Session"],
+    "answer": "C",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Which OSI layer is also called the 'syntax layer'?",
+    "options": ["A) Application", "B) Session", "C) Presentation", "D) Transport"],
+    "answer": "C",
+    "layer": "Presentation"
+  },
+  {
+    "question": "SSL/TLS protocols operate at which OSI layer?",
+    "options": ["A) Transport", "B) Presentation", "C) Session", "D) Application"],
+    "answer": "B",
+    "layer": "Presentation"
+  },
+  {
+    "question": "Which layer does HTTPS encryption primarily occur at?",
+    "options": ["A) Application", "B) Session", "C) Presentation", "D) Transport"],
+    "answer": "C",
+    "layer": "Presentation"
+  },
+  {
+    "question": "NetBIOS operates at which OSI layer?",
+    "options": ["A) Transport", "B) Session", "C) Presentation", "D) Application"],
+    "answer": "B",
+    "layer": "Session"
+  },
+  {
+    "question": "Which layer establishes checkpoints during data transfer?",
+    "options": ["A) Transport", "B) Presentation", "C) Session", "D) Application"],
+    "answer": "C",
+    "layer": "Session"
+  },
+  {
+    "question": "What is a socket in networking?",
+    "options": ["A) A physical port on a switch", "B) Combination of IP address and port number", "C) A MAC address format", "D) A routing table entry"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "Which layer is responsible for windowing?",
+    "options": ["A) Network", "B) Data Link", "C) Session", "D) Transport"],
+    "answer": "D",
+    "layer": "Transport"
+  },
+  {
+    "question": "What is windowing in the Transport layer?",
+    "options": ["A) A method of encryption", "B) Controlling the amount of data sent before acknowledgment", "C) Converting data formats", "D) Establishing sessions"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "What is the purpose of SNMP?",
+    "options": ["A) Secure Network Management Protocol for data encryption", "B) Simple Network Management Protocol for monitoring network devices", "C) Standard Network Monitoring Protocol for routing", "D) System Network Management Protocol for addressing"],
+    "answer": "B",
+    "layer": "Application"
+  },
+  {
+    "question": "SNMP operates at which OSI layer?",
+    "options": ["A) Transport", "B) Network", "C) Application", "D) Session"],
+    "answer": "C",
+    "layer": "Application"
+  },
+  {
+    "question": "Which layer handles JPEG, MPEG, and ASCII data formats?",
+    "options": ["A) Application", "B) Session", "C) Presentation", "D) Transport"],
+    "answer": "C",
+    "layer": "Presentation"
+  },
+  {
+    "question": "Which layer does Telnet operate at?",
+    "options": ["A) Transport", "B) Network", "C) Session", "D) Application"],
+    "answer": "D",
+    "layer": "Application"
+  },
+  {
+    "question": "Which layer does SSH operate at?",
+    "options": ["A) Transport", "B) Presentation", "C) Application", "D) Session"],
+    "answer": "C",
+    "layer": "Application"
+  },
+  {
+    "question": "What is the main difference between TCP and UDP?",
+    "options": ["A) TCP is faster, UDP is reliable", "B) TCP is reliable and connection-oriented, UDP is fast and connectionless", "C) TCP works at Layer 3, UDP at Layer 4", "D) TCP uses IP, UDP does not"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "Which Application layer protocol is used to retrieve emails?",
+    "options": ["A) SMTP", "B) FTP", "C) POP3", "D) DNS"],
+    "answer": "C",
+    "layer": "Application"
+  },
+  {
+    "question": "Which protocol is used to synchronize time across network devices?",
+    "options": ["A) SNMP", "B) NTP", "C) DHCP", "D) TFTP"],
+    "answer": "B",
+    "layer": "Application"
+  },
+  {
+    "question": "NTP stands for?",
+    "options": ["A) Network Time Protocol", "B) Network Transfer Protocol", "C) Node Time Protocol", "D) Network Timing Process"],
+    "answer": "A",
+    "layer": "Application"
+  },
+  {
+    "question": "Which layer is the Physical layer in the OSI model?",
+    "options": ["A) Layer 7", "B) Layer 5", "C) Layer 2", "D) Layer 1"],
+    "answer": "D",
+    "layer": "Physical"
+  },
+  {
+    "question": "What is the function of a modem at the Physical layer?",
+    "options": ["A) Routes packets between networks", "B) Converts digital signals to analog and vice versa", "C) Manages MAC addresses", "D) Provides IP addresses"],
+    "answer": "B",
+    "layer": "Physical"
+  },
+  {
+    "question": "Fiber optic cables transmit data as?",
+    "options": ["A) Electrical signals", "B) Radio waves", "C) Light pulses", "D) Magnetic fields"],
+    "answer": "C",
+    "layer": "Physical"
+  },
+  {
+    "question": "Which transmission medium is used at the Physical layer to avoid electromagnetic interference?",
+    "options": ["A) UTP cable", "B) Coaxial cable", "C) Fiber optic cable", "D) Wireless"],
+    "answer": "C",
+    "layer": "Physical"
+  },
+  {
+    "question": "What does UTP stand for?",
+    "options": ["A) Unshielded Twisted Pair", "B) Universal Transfer Protocol", "C) Unified Transmission Path", "D) Unshielded Transfer Port"],
+    "answer": "A",
+    "layer": "Physical"
+  },
+  {
+    "question": "What does STP stand for in physical cabling?",
+    "options": ["A) Shielded Twisted Pair", "B) Standard Transfer Protocol", "C) Secure Transmission Path", "D) Shielded Transfer Port"],
+    "answer": "A",
+    "layer": "Physical"
+  },
+  {
+    "question": "Which OSI layer deals with bandwidth and transmission rates?",
+    "options": ["A) Data Link", "B) Network", "C) Physical", "D) Transport"],
+    "answer": "C",
+    "layer": "Physical"
+  },
+  {
+    "question": "What is the purpose of a preamble in an Ethernet frame?",
+    "options": ["A) Provide error detection", "B) Synchronize receiver clocks", "C) Provide source MAC address", "D) Define IP address"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What is the maximum size of an Ethernet frame?",
+    "options": ["A) 512 bytes", "B) 1024 bytes", "C) 1518 bytes", "D) 2048 bytes"],
+    "answer": "C",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What is the minimum size of an Ethernet frame?",
+    "options": ["A) 32 bytes", "B) 64 bytes", "C) 128 bytes", "D) 256 bytes"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What is a broadcast MAC address?",
+    "options": ["A) 00:00:00:00:00:00", "B) FF:FF:FF:FF:FF:FF", "C) 01:00:00:00:00:00", "D) 10:00:00:00:00:00"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "VLAN technology operates at which OSI layer?",
+    "options": ["A) Physical", "B) Data Link", "C) Network", "D) Transport"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What does VLAN stand for?",
+    "options": ["A) Virtual Local Area Network", "B) Variable Layer Access Network", "C) Virtual Link Area Node", "D) Variable Local Access Network"],
+    "answer": "A",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Which IEEE standard defines Ethernet?",
+    "options": ["A) IEEE 802.3", "B) IEEE 802.11", "C) IEEE 802.15", "D) IEEE 802.1Q"],
+    "answer": "A",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Which IEEE standard defines Wi-Fi?",
+    "options": ["A) IEEE 802.3", "B) IEEE 802.11", "C) IEEE 802.15", "D) IEEE 802.1X"],
+    "answer": "B",
+    "layer": "Physical"
+  },
+  {
+    "question": "Which IEEE standard defines VLAN tagging?",
+    "options": ["A) IEEE 802.3", "B) IEEE 802.11", "C) IEEE 802.1Q", "D) IEEE 802.15"],
+    "answer": "C",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What is NAT in networking?",
+    "options": ["A) Network Address Translation", "B) Node Address Table", "C) Network Authentication Transfer", "D) Node Access Technology"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "NAT operates at which OSI layer?",
+    "options": ["A) Layer 2", "B) Layer 3", "C) Layer 4", "D) Layer 5"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "What is a loopback address in IPv4?",
+    "options": ["A) 0.0.0.0", "B) 255.255.255.255", "C) 127.0.0.1", "D) 192.168.1.1"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "Which class of IPv4 address starts with bits 1110?",
+    "options": ["A) Class A", "B) Class B", "C) Class C", "D) Class D"],
+    "answer": "D",
+    "layer": "Network"
+  },
+  {
+    "question": "Which IPv4 address class supports the most hosts per network?",
+    "options": ["A) Class A", "B) Class B", "C) Class C", "D) Class D"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "What is the private IP range for Class A?",
+    "options": ["A) 10.0.0.0 - 10.255.255.255", "B) 172.16.0.0 - 172.31.255.255", "C) 192.168.0.0 - 192.168.255.255", "D) 169.254.0.0 - 169.254.255.255"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "What is the private IP range for Class B?",
+    "options": ["A) 10.0.0.0 - 10.255.255.255", "B) 172.16.0.0 - 172.31.255.255", "C) 192.168.0.0 - 192.168.255.255", "D) 169.254.0.0 - 169.254.255.255"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "What is the private IP range for Class C?",
+    "options": ["A) 10.0.0.0 - 10.255.255.255", "B) 172.16.0.0 - 172.31.255.255", "C) 192.168.0.0 - 192.168.255.255", "D) 169.254.0.0 - 169.254.255.255"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "APIPA addresses fall in which range?",
+    "options": ["A) 10.0.0.0/8", "B) 172.16.0.0/12", "C) 192.168.0.0/16", "D) 169.254.0.0/16"],
+    "answer": "D",
+    "layer": "Network"
+  },
+  {
+    "question": "What does APIPA stand for?",
+    "options": ["A) Automatic Private IP Addressing", "B) Assigned Public IP Addressing", "C) Automatic Public Internet Protocol Assignment", "D) Adaptive Private IP Allocation"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "What is the purpose of QoS in networking?",
+    "options": ["A) Provide encryption for data", "B) Prioritize network traffic", "C) Manage IP address assignments", "D) Filter MAC addresses"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "QoS primarily functions at which OSI layer?",
+    "options": ["A) Layer 2", "B) Layer 3", "C) Layer 4", "D) Both Layer 2 and Layer 3"],
+    "answer": "D",
+    "layer": "Network"
+  },
+  {
+    "question": "Which protocol is used for secure remote login at the Application layer?",
+    "options": ["A) Telnet", "B) SSH", "C) FTP", "D) SNMP"],
+    "answer": "B",
+    "layer": "Application"
+  },
+  {
+    "question": "What does the term 'encapsulation' mean when sending data from the Application layer to the Physical layer?",
+    "options": ["A) Data is compressed at each layer", "B) Header information is added at each layer", "C) Data is encrypted at each layer", "D) Data is fragmented at each layer"],
+    "answer": "B",
+    "layer": "General"
+  },
+  {
+    "question": "Which layer is responsible for error detection and correction in the OSI model at Layer 2?",
+    "options": ["A) Physical", "B) Data Link", "C) Network", "D) Transport"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Spanning Tree Protocol (STP) operates at which layer?",
+    "options": ["A) Layer 1", "B) Layer 2", "C) Layer 3", "D) Layer 4"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What is the purpose of STP?",
+    "options": ["A) Provide encryption", "B) Prevent routing loops", "C) Prevent switching loops", "D) Manage IP addresses"],
+    "answer": "C",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Which layer is responsible for logical addressing?",
+    "options": ["A) Physical", "B) Data Link", "C) Network", "D) Transport"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "Which layer is responsible for physical addressing?",
+    "options": ["A) Physical", "B) Data Link", "C) Network", "D) Transport"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What is the purpose of a default gateway?",
+    "options": ["A) Assign IP addresses to hosts", "B) Encrypt traffic on the network", "C) Forward traffic destined for other networks", "D) Resolve domain names to IP addresses"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "TFTP uses which transport protocol?",
+    "options": ["A) TCP", "B) UDP", "C) Both TCP and UDP", "D) ICMP"],
+    "answer": "B",
+    "layer": "Application"
+  },
+  {
+    "question": "DNS typically uses which transport protocol?",
+    "options": ["A) TCP only", "B) UDP only", "C) Both UDP (queries) and TCP (zone transfers)", "D) ICMP"],
+    "answer": "C",
+    "layer": "Application"
+  },
+  {
+    "question": "What is the purpose of the Application layer in the OSI model?",
+    "options": ["A) Route packets between networks", "B) Translate data formats", "C) Provide services and interfaces to user applications", "D) Establish sessions between hosts"],
+    "answer": "C",
+    "layer": "Application"
+  },
+  {
+    "question": "Which OSI layer is responsible for identifying communication partners?",
+    "options": ["A) Session", "B) Presentation", "C) Application", "D) Transport"],
+    "answer": "C",
+    "layer": "Application"
+  },
+  {
+    "question": "Which of the following is NOT a function of the Session layer?",
+    "options": ["A) Dialog control", "B) Synchronization", "C) Data encryption", "D) Session establishment"],
+    "answer": "C",
+    "layer": "Session"
+  },
+  {
+    "question": "What is full-duplex communication?",
+    "options": ["A) Data travels in one direction only", "B) Data travels in both directions but not simultaneously", "C) Data travels in both directions simultaneously", "D) Data travels in multiple paths"],
+    "answer": "C",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What is half-duplex communication?",
+    "options": ["A) Data travels in one direction only", "B) Data travels in both directions but not simultaneously", "C) Data travels in both directions simultaneously", "D) Data travels in multiple frequencies"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What is simplex communication?",
+    "options": ["A) Data travels in one direction only", "B) Data travels in both directions simultaneously", "C) Data travels in both directions but not simultaneously", "D) Data is compressed before sending"],
+    "answer": "A",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Which layer does the ping utility primarily test?",
+    "options": ["A) Layer 2", "B) Layer 3", "C) Layer 4", "D) Layer 7"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "What is the purpose of a proxy server in terms of OSI layers?",
+    "options": ["A) Operates at Layer 1 to boost signals", "B) Operates at Layer 7 to forward application requests", "C) Operates at Layer 3 to route packets", "D) Operates at Layer 2 to filter MAC addresses"],
+    "answer": "B",
+    "layer": "Application"
+  },
+  {
+    "question": "Which layer does a firewall typically operate at?",
+    "options": ["A) Layer 2 only", "B) Layer 3 only", "C) Layer 4 only", "D) Multiple layers including 3, 4, and 7"],
+    "answer": "D",
+    "layer": "General"
+  },
+  {
+    "question": "What does IDS stand for in networking?",
+    "options": ["A) Intrusion Detection System", "B) Internet Domain Service", "C) Internal Data Security", "D) Intrusion Defense System"],
+    "answer": "A",
+    "layer": "General"
+  },
+  {
+    "question": "Which of the following is an example of a Layer 7 protocol?",
+    "options": ["A) Ethernet", "B) IP", "C) TCP", "D) HTTPS"],
+    "answer": "D",
+    "layer": "Application"
+  },
+  {
+    "question": "Which of the following is an example of a Layer 2 protocol?",
+    "options": ["A) IP", "B) TCP", "C) Ethernet", "D) HTTP"],
+    "answer": "C",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Which of the following is an example of a Layer 3 protocol?",
+    "options": ["A) Ethernet", "B) TCP", "C) IP", "D) HTTP"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "Which OSI layer model layer number is the Session layer?",
+    "options": ["A) Layer 4", "B) Layer 5", "C) Layer 6", "D) Layer 7"],
+    "answer": "B",
+    "layer": "Session"
+  },
+  {
+    "question": "Which OSI layer model layer number is the Presentation layer?",
+    "options": ["A) Layer 4", "B) Layer 5", "C) Layer 6", "D) Layer 7"],
+    "answer": "C",
+    "layer": "Presentation"
+  },
+  {
+    "question": "What does the term 'peer-to-peer communication' mean in the OSI model?",
+    "options": ["A) Communication between the same layer on two different devices", "B) Communication between adjacent layers on the same device", "C) Communication between all layers on a device", "D) Communication without a server"],
+    "answer": "A",
+    "layer": "General"
+  },
+  {
+    "question": "What is the role of a gateway in the OSI model?",
+    "options": ["A) Connect two networks using the same protocol", "B) Connect two networks using different protocols", "C) Amplify signals between networks", "D) Provide wireless access"],
+    "answer": "B",
+    "layer": "General"
+  },
+  {
+    "question": "Which layer handles the responsibility of end-to-end delivery guarantee?",
+    "options": ["A) Network", "B) Transport", "C) Session", "D) Data Link"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "What is fragmentation in the Network layer?",
+    "options": ["A) Encrypting large packets", "B) Breaking large packets into smaller ones to fit MTU", "C) Compressing data for faster transmission", "D) Separating data from headers"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "What does MTU stand for?",
+    "options": ["A) Maximum Transfer Unit", "B) Maximum Transmission Unit", "C) Minimum Transfer Unit", "D) Maximum Transport Unit"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "What is the typical MTU size for Ethernet?",
+    "options": ["A) 512 bytes", "B) 1024 bytes", "C) 1500 bytes", "D) 9000 bytes"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "What is a jumbo frame?",
+    "options": ["A) Ethernet frame larger than 1500 bytes MTU", "B) Ethernet frame smaller than standard", "C) A fragmented IP packet", "D) A VLAN-tagged frame"],
+    "answer": "A",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Which of these is an Application layer service?",
+    "options": ["A) IP routing", "B) MAC filtering", "C) Web browsing via HTTP", "D) Packet fragmentation"],
+    "answer": "C",
+    "layer": "Application"
+  },
+  {
+    "question": "Which layer translates between different character encoding systems such as ASCII and EBCDIC?",
+    "options": ["A) Application", "B) Session", "C) Presentation", "D) Transport"],
+    "answer": "C",
+    "layer": "Presentation"
+  },
+  {
+    "question": "What does EBCDIC stand for?",
+    "options": ["A) Extended Binary Coded Decimal Interchange Code", "B) Ethernet Binary Communication Data Interchange Code", "C) Extended Bit Code Decimal Information Code", "D) Electronic Binary Code Data Input Control"],
+    "answer": "A",
+    "layer": "Presentation"
+  },
+  {
+    "question": "Which layer manages token ring access?",
+    "options": ["A) Physical", "B) Data Link", "C) Network", "D) Session"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "In the OSI model, which layer is directly above the Network layer?",
+    "options": ["A) Data Link", "B) Session", "C) Transport", "D) Presentation"],
+    "answer": "C",
+    "layer": "Transport"
+  },
+  {
+    "question": "In the OSI model, which layer is directly below the Application layer?",
+    "options": ["A) Session", "B) Transport", "C) Network", "D) Presentation"],
+    "answer": "D",
+    "layer": "Presentation"
+  },
+  {
+    "question": "What is a PDU?",
+    "options": ["A) Protocol Data Unit - the name of data at each OSI layer", "B) Packet Data Utility - a routing tool", "C) Protocol Distribution Unit - a switching term", "D) Peripheral Data Unit - a hardware component"],
+    "answer": "A",
+    "layer": "General"
+  },
+  {
+    "question": "What is the PDU at the Application, Presentation, and Session layers called?",
+    "options": ["A) Frame", "B) Packet", "C) Data", "D) Segment"],
+    "answer": "C",
+    "layer": "General"
+  },
+  {
+    "question": "What does LDAP stand for?",
+    "options": ["A) Lightweight Directory Access Protocol", "B) Local Data Access Protocol", "C) Logical Directory Application Protocol", "D) Layer Directory Access Process"],
+    "answer": "A",
+    "layer": "Application"
+  },
+  {
+    "question": "LDAP operates at which OSI layer?",
+    "options": ["A) Transport", "B) Session", "C) Presentation", "D) Application"],
+    "answer": "D",
+    "layer": "Application"
+  },
+  {
+    "question": "Which layer is responsible for converting data into a format suitable for transmission?",
+    "options": ["A) Application", "B) Transport", "C) Presentation", "D) Session"],
+    "answer": "C",
+    "layer": "Presentation"
+  },
+  {
+    "question": "Which layer provides services like remote file access and resource sharing?",
+    "options": ["A) Session", "B) Presentation", "C) Application", "D) Transport"],
+    "answer": "C",
+    "layer": "Application"
+  },
+  {
+    "question": "RPC (Remote Procedure Call) primarily operates at which layer?",
+    "options": ["A) Network", "B) Transport", "C) Session", "D) Application"],
+    "answer": "C",
+    "layer": "Session"
+  },
+  {
+    "question": "Which layer does a Layer 3 switch operate at?",
+    "options": ["A) Layer 2 only", "B) Layer 3 only", "C) Both Layer 2 and Layer 3", "D) Layer 4"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "What is the broadcast domain affected by?",
+    "options": ["A) Hubs", "B) Switches", "C) Routers", "D) Repeaters"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "What device segments collision domains?",
+    "options": ["A) Hub", "B) Repeater", "C) Switch", "D) Modem"],
+    "answer": "C",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What device segments broadcast domains?",
+    "options": ["A) Hub", "B) Switch", "C) Router", "D) Bridge"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "Which protocol is used by routers to exchange routing information?",
+    "options": ["A) ARP", "B) ICMP", "C) OSPF", "D) STP"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "HTTPS provides security through which mechanism?",
+    "options": ["A) IPSec at the Network layer", "B) SSL/TLS at the Presentation layer", "C) SSH at the Application layer", "D) WPA at the Data Link layer"],
+    "answer": "B",
+    "layer": "Presentation"
+  },
+  {
+    "question": "What is the loopback address in IPv6?",
+    "options": ["A) ::0", "B) ::1", "C) FE80::1", "D) FF02::1"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "What does CIDR stand for?",
+    "options": ["A) Classless Inter-Domain Routing", "B) Class-based Internet Domain Routing", "C) Centralized IP Domain Routing", "D) Classified Inter-Device Routing"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "Which notation uses CIDR for IP addressing?",
+    "options": ["A) 192.168.1.0 255.255.255.0", "B) 192.168.1.0/24", "C) 192.168.1.0 Class C", "D) 192.168.1.0 - 192.168.1.255"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "What is the purpose of RARP?",
+    "options": ["A) Resolve IP addresses to MAC addresses", "B) Resolve MAC addresses to IP addresses", "C) Resolve domain names to IP addresses", "D) Resolve port numbers to services"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "RARP stands for?",
+    "options": ["A) Reverse Address Resolution Protocol", "B) Remote Address Resolution Protocol", "C) Rapid Address Resolution Protocol", "D) Reliable Address Resolution Protocol"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "What is the function of the LLC sublayer?",
+    "options": ["A) Media access control and physical addressing", "B) Error control and flow control between Data Link and Network layers", "C) Routing packets across networks", "D) Encrypting data for transmission"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Which layer deals with cable specifications like RJ45?",
+    "options": ["A) Data Link", "B) Physical", "C) Network", "D) Transport"],
+    "answer": "B",
+    "layer": "Physical"
+  },
+  {
+    "question": "What does RJ45 stand for?",
+    "options": ["A) Registered Jack 45", "B) Remote Junction 45", "C) Relay Jack 45", "D) Registered Junction 45"],
+    "answer": "A",
+    "layer": "Physical"
+  },
+  {
+    "question": "Which type of cable is used for connecting two similar devices directly?",
+    "options": ["A) Straight-through cable", "B) Crossover cable", "C) Rollover cable", "D) Fiber cable"],
+    "answer": "B",
+    "layer": "Physical"
+  },
+  {
+    "question": "Which type of cable is used for connecting different devices like a PC to a switch?",
+    "options": ["A) Crossover cable", "B) Rollover cable", "C) Straight-through cable", "D) Console cable"],
+    "answer": "C",
+    "layer": "Physical"
+  },
+  {
+    "question": "What does PoE stand for in networking?",
+    "options": ["A) Power over Ethernet", "B) Protocol over Ethernet", "C) Port over Ethernet", "D) Power on Ethernet"],
+    "answer": "A",
+    "layer": "Physical"
+  },
+  {
+    "question": "PoE is defined in which IEEE standard?",
+    "options": ["A) IEEE 802.3af", "B) IEEE 802.11n", "C) IEEE 802.1Q", "D) IEEE 802.15"],
+    "answer": "A",
+    "layer": "Physical"
+  },
+  {
+    "question": "What is CSMA/CD used for?",
+    "options": ["A) Wireless channel access in Wi-Fi", "B) Collision detection in Ethernet networks", "C) Encryption in Transport layer", "D) Session management"],
+    "answer": "B",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What does CSMA/CD stand for?",
+    "options": ["A) Carrier Sense Multiple Access with Collision Detection", "B) Channel Sense Multiple Access with Collision Distribution", "C) Carrier Sense Media Access with Collision Distribution", "D) Channel Sense Media Access with Collision Detection"],
+    "answer": "A",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What does CSMA/CA stand for?",
+    "options": ["A) Carrier Sense Multiple Access with Collision Avoidance", "B) Channel Sense Multiple Access with Collision Avoidance", "C) Carrier Sense Media Access with Collision Application", "D) Channel Sense Media Access with Collision Application"],
+    "answer": "A",
+    "layer": "Data Link"
+  },
+  {
+    "question": "CSMA/CA is used in which type of network?",
+    "options": ["A) Wired Ethernet", "B) Token Ring", "C) Wireless (Wi-Fi)", "D) FDDI"],
+    "answer": "C",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What is a collision domain?",
+    "options": ["A) A network segment where packets may collide", "B) A range of IP addresses", "C) A broadcast area of a network", "D) A VLAN segment"],
+    "answer": "A",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What is the purpose of the CSMA in networking?",
+    "options": ["A) Listen to the channel before transmitting", "B) Assign IP addresses automatically", "C) Encrypt data before transmission", "D) Resolve MAC to IP addresses"],
+    "answer": "A",
+    "layer": "Data Link"
+  },
+  {
+    "question": "Which layer of the OSI model is sometimes called the 'heart' of the OSI model?",
+    "options": ["A) Network", "B) Transport", "C) Session", "D) Data Link"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "What is the purpose of acknowledging packets in TCP?",
+    "options": ["A) To encrypt the data", "B) To confirm successful receipt of data", "C) To route packets faster", "D) To compress data"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "What happens during TCP connection teardown?",
+    "options": ["A) SYN-SYN/ACK-ACK exchange", "B) FIN-ACK-FIN-ACK exchange", "C) RST-ACK exchange only", "D) SYN-FIN exchange"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "What is a SYN flood attack?",
+    "options": ["A) Sending many FIN packets to close connections", "B) Sending many SYN packets to overwhelm a server", "C) Flooding a network with broadcast packets", "D) Sending oversized IP packets"],
+    "answer": "B",
+    "layer": "Transport"
+  },
+  {
+    "question": "What does SSL stand for?",
+    "options": ["A) Secure Socket Layer", "B) Secure System Link", "C) Standard Security Layer", "D) Secure Sockets Link"],
+    "answer": "A",
+    "layer": "Presentation"
+  },
+  {
+    "question": "What does TLS stand for?",
+    "options": ["A) Transfer Layer Security", "B) Transport Layer Security", "C) Transport Link Security", "D) Transfer Link Secure"],
+    "answer": "B",
+    "layer": "Presentation"
+  },
+  {
+    "question": "Which protocol replaced SSL due to security vulnerabilities?",
+    "options": ["A) HTTPS", "B) TLS", "C) SSH", "D) IPSec"],
+    "answer": "B",
+    "layer": "Presentation"
+  },
+  {
+    "question": "IPSec operates at which OSI layer?",
+    "options": ["A) Transport", "B) Data Link", "C) Network", "D) Presentation"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "What does IPSec stand for?",
+    "options": ["A) Internet Protocol Security", "B) Internal Protocol Secure", "C) Internet Packet Security", "D) IP Secure Communication"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "Which protocol provides error messaging for IP at the Network layer?",
+    "options": ["A) ARP", "B) RARP", "C) ICMP", "D) OSPF"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "Traceroute uses which protocol to discover the path?",
+    "options": ["A) TCP", "B) UDP and ICMP", "C) ARP", "D) DNS"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "What information does the traceroute command display?",
+    "options": ["A) MAC addresses of each hop", "B) IP addresses and latency of each hop to destination", "C) Port numbers used at each hop", "D) Encryption used at each hop"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "Which OSI layer would handle the conversion of HTML to what you see on screen?",
+    "options": ["A) Session", "B) Transport", "C) Application", "D) Presentation"],
+    "answer": "D",
+    "layer": "Presentation"
+  },
+  {
+    "question": "In the OSI model, communication between the same layers on different hosts is called?",
+    "options": ["A) Vertical communication", "B) Horizontal communication", "C) Peer communication", "D) Adjacent communication"],
+    "answer": "C",
+    "layer": "General"
+  },
+  {
+    "question": "What is the PDU name at the Session layer?",
+    "options": ["A) Segment", "B) Frame", "C) Data", "D) Packet"],
+    "answer": "C",
+    "layer": "Session"
+  },
+  {
+    "question": "Which of the following protocols is used for file transfer over the internet?",
+    "options": ["A) SMTP", "B) FTP", "C) DNS", "D) SNMP"],
+    "answer": "B",
+    "layer": "Application"
+  },
+  {
+    "question": "Which is a secure version of FTP?",
+    "options": ["A) SFTP", "B) TFTP", "C) FTPS", "D) Both A and C"],
+    "answer": "D",
+    "layer": "Application"
+  },
+  {
+    "question": "TFTP stands for?",
+    "options": ["A) Trivial File Transfer Protocol", "B) Transfer File Transport Protocol", "C) Trusted File Transfer Protocol", "D) Timed File Transfer Protocol"],
+    "answer": "A",
+    "layer": "Application"
+  },
+  {
+    "question": "Which layer does an access point (AP) primarily operate at?",
+    "options": ["A) Layer 1 only", "B) Layer 2 only", "C) Layer 1 and Layer 2", "D) Layer 3"],
+    "answer": "C",
+    "layer": "Data Link"
+  },
+  {
+    "question": "What is the purpose of IGMP?",
+    "options": ["A) Manage IP multicast group memberships", "B) Assign dynamic IP addresses", "C) Resolve MAC addresses", "D) Encrypt multicast traffic"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "IGMP stands for?",
+    "options": ["A) Internet Group Management Protocol", "B) Internal Gateway Management Protocol", "C) Internet Group Multicast Protocol", "D) Internal Group Management Protocol"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "Which protocol is used for remote network device management at Application layer?",
+    "options": ["A) FTP", "B) SNMP", "C) Telnet", "D) DNS"],
+    "answer": "B",
+    "layer": "Application"
+  },
+  {
+    "question": "Which layer of the OSI model is closest to the user?",
+    "options": ["A) Physical", "B) Data Link", "C) Application", "D) Presentation"],
+    "answer": "C",
+    "layer": "Application"
+  },
+  {
+    "question": "Which layer of the OSI model is closest to the physical medium?",
+    "options": ["A) Data Link", "B) Network", "C) Physical", "D) Transport"],
+    "answer": "C",
+    "layer": "Physical"
+  },
+  {
+    "question": "What is the OSI model primarily used for today?",
+    "options": ["A) Actual protocol implementation", "B) A reference/conceptual framework for understanding networking", "C) Physical cable standards", "D) IP addressing"],
+    "answer": "B",
+    "layer": "General"
+  },
+  {
+    "question": "The TCP/IP model combines which OSI layers into the 'Application' layer?",
+    "options": ["A) Physical, Data Link, Network", "B) Application, Presentation, Session", "C) Transport, Session, Presentation", "D) Network, Transport, Session"],
+    "answer": "B",
+    "layer": "General"
+  },
+  {
+    "question": "The TCP/IP model's 'Internet' layer maps to which OSI layer?",
+    "options": ["A) Transport", "B) Data Link", "C) Network", "D) Session"],
+    "answer": "C",
+    "layer": "General"
+  },
+  {
+    "question": "The TCP/IP model's 'Network Access' layer maps to which OSI layers?",
+    "options": ["A) Physical and Data Link", "B) Network and Transport", "C) Data Link and Network", "D) Physical and Network"],
+    "answer": "A",
+    "layer": "General"
+  },
+  {
+    "question": "How many layers does the TCP/IP model have?",
+    "options": ["A) 3", "B) 4", "C) 5", "D) 7"],
+    "answer": "B",
+    "layer": "General"
+  },
+  {
+    "question": "Which transmission type sends data to all devices on a network?",
+    "options": ["A) Unicast", "B) Multicast", "C) Broadcast", "D) Anycast"],
+    "answer": "C",
+    "layer": "Network"
+  },
+  {
+    "question": "Which transmission type sends data to a specific single device?",
+    "options": ["A) Unicast", "B) Multicast", "C) Broadcast", "D) Anycast"],
+    "answer": "A",
+    "layer": "Network"
+  },
+  {
+    "question": "Which transmission type sends data to a group of interested receivers?",
+    "options": ["A) Unicast", "B) Multicast", "C) Broadcast", "D) Anycast"],
+    "answer": "B",
+    "layer": "Network"
+  },
+  {
+    "question": "What is the IP broadcast address for the 192.168.1.0/24 network?",
+    "options": ["A) 192.168.1.0", "B) 192.168.1.1", "C) 192.168.1.254", "D) 192.168.1.255"],
+    "answer": "D",
+    "layer": "Network"
+  },
+  {
+    "question": "What is the network address for 192.168.1.0/24?",
+    "options": ["A) 192.168.0.0", "B) 192.168.1.0", "C) 192.168.1.1", "D) 192.168.255.0"],
+    "answer": "B",
+    "layer": "Network"
+  }
+]
