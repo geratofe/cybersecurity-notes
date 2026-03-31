@@ -1,0 +1,94 @@
+# FutureVera – Notes (TryHackMe)
+
+This one looked simple at first but ended up being a good reminder to **trust the challenge description**.
+
+Started with a standard scan:
+
+```bash
+nmap -sC -sV -T4 <IP>
+```
+
+Nothing unusual — SSH and a web server. Mapped the domain in `/etc/hosts`:
+
+```text
+10.146.157.118 futurevera.thm
+```
+
+Did some quick directory enumeration:
+
+```bash
+gobuster dir -u https://futurevera.thm -w /usr/share/wordlists/dirb/common.txt -k
+```
+
+Found `/assets`, `/css`, `/js`. Looked into them, especially the JS:
+
+```bash
+curl -k https://futurevera.thm/js/scripts.js
+```
+
+…but nothing useful. Static template stuff.
+
+At that point I was basically stuck, and that’s when I realized I ignored the biggest hint —
+the challenge literally says it’s about **subdomain enumeration**.
+
+Switched approach:
+
+```bash
+gobuster vhost -u https://futurevera.thm \
+-w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt \
+--append-domain -k
+```
+
+Found:
+
+* `blog.futurevera.thm`
+* `support.futurevera.thm`
+
+Added them to `/etc/hosts` and moved on.
+
+The support subdomain didn’t give much. No inputs, no obvious attack surface, nothing to exploit directly. That’s usually a sign you need to go deeper instead of wider.
+
+Next step was checking the certificate:
+
+```bash
+openssl s_client -connect support.futurevera.thm:443 \
+-servername support.futurevera.thm 2>/dev/null \
+| openssl x509 -noout -text
+```
+
+That revealed a new subdomain inside the cert:
+
+```
+secrethelpdesk934752.support.futurevera.thm
+```
+
+Added it to `/etc/hosts` and accessed it. Same situation again — normal page, nothing obvious. At this point it felt like a dead end.
+
+Eventually checked the headers instead of the page content:
+
+```bash
+curl --head https://secrethelpdesk934752.support.futurevera.thm
+```
+
+That’s where the flag was hiding — inside a redirect:
+
+```
+Location: http://flag{beea0d6edfcee06a59b83fb50ae81b2f}...
+```
+
+---
+
+## Takeaways
+
+* Read the challenge description carefully — it usually tells you the path
+* Subdomain enumeration isn’t just brute force → certificates matter
+* When pages look “too clean”, check:
+
+  * headers
+  * redirects
+  * metadata
+* Don’t get stuck on directories if the problem is elsewhere
+
+---
+
+Completed on: TryHackMe
