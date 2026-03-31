@@ -1,93 +1,46 @@
 # FutureVera – Notes (TryHackMe)
 
-This one looked simple at first but ended up being a good reminder to **trust the challenge description**.
+Started with a basic scan using `nmap -sC -sV -T4 <IP>`. Found SSH and a web server running on 80/443.
 
-Started with a standard scan:
+Added the domain to `/etc/hosts`:
+`10.146.157.118 futurevera.thm`
 
-```bash
-nmap -sC -sV -T4 <IP>
-```
+Did some quick directory enumeration with gobuster. Found `/assets`, `/css`, `/js`. Looked into them, especially the JS file (`scripts.js`), but it was just template code — nothing useful.
 
-Nothing unusual — SSH and a web server. Mapped the domain in `/etc/hosts`:
+At that point I got stuck for a bit.
 
-```text
-10.146.157.118 futurevera.thm
-```
+Then I went back to the challenge description and realized it literally says this is about **subdomain enumeration**.
 
-Did some quick directory enumeration:
+Switched approach and ran vhost enumeration with gobuster. That gave me:
 
-```bash
-gobuster dir -u https://futurevera.thm -w /usr/share/wordlists/dirb/common.txt -k
-```
+* `sum.futurevera.thm`
+* `sumsum.futurevera.thm`
 
-Found `/assets`, `/css`, `/js`. Looked into them, especially the JS:
+Added both to `/etc/hosts`.
 
-```bash
-curl -k https://futurevera.thm/js/scripts.js
-```
+The support subdomain didn’t expose anything obvious. No inputs, no directories, nothing to interact with. That usually means you need to dig deeper instead of brute forcing more paths.
 
-…but nothing useful. Static template stuff.
+Next step was checking the SSL certificate using openssl. That revealed another hidden subdomain:
 
-At that point I was basically stuck, and that’s when I realized I ignored the biggest hint —
-the challenge literally says it’s about **subdomain enumeration**.
+`sumsumsumsum.support.futurevera.thm`
 
-Switched approach:
+Added it to `/etc/hosts` and accessed it. Same situation again — clean page, nothing obvious.
 
-```bash
-gobuster vhost -u https://futurevera.thm \
--w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt \
---append-domain -k
-```
+Eventually checked HTTP headers instead of the page content using:
+`curl --head`
 
-Found:
+That’s where the flag showed up — inside a redirect:
 
-* `blog.futurevera.thm`
-* `support.futurevera.thm`
-
-Added them to `/etc/hosts` and moved on.
-
-The support subdomain didn’t give much. No inputs, no obvious attack surface, nothing to exploit directly. That’s usually a sign you need to go deeper instead of wider.
-
-Next step was checking the certificate:
-
-```bash
-openssl s_client -connect support.futurevera.thm:443 \
--servername support.futurevera.thm 2>/dev/null \
-| openssl x509 -noout -text
-```
-
-That revealed a new subdomain inside the cert:
-
-```
-secrethelpdesk934752.support.futurevera.thm
-```
-
-Added it to `/etc/hosts` and accessed it. Same situation again — normal page, nothing obvious. At this point it felt like a dead end.
-
-Eventually checked the headers instead of the page content:
-
-```bash
-curl --head https://secrethelpdesk934752.support.futurevera.thm
-```
-
-That’s where the flag was hiding — inside a redirect:
-
-```
-Location: http://flag{beea0d6edfcee06a59b83fb50ae81b2f}...
-```
+`Location: http://flag{xxxxxxxxxxxxxxxxx}...`
 
 ---
 
 ## Takeaways
 
-* Read the challenge description carefully — it usually tells you the path
-* Subdomain enumeration isn’t just brute force → certificates matter
-* When pages look “too clean”, check:
-
-  * headers
-  * redirects
-  * metadata
-* Don’t get stuck on directories if the problem is elsewhere
+* Always read the challenge description carefully
+* Subdomain enumeration goes beyond brute forcing (certificates matter)
+* If a page looks too clean, check headers and redirects
+* Don’t tunnel vision on one technique — switch approach when stuck
 
 ---
 
