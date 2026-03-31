@@ -40,7 +40,7 @@ OSI-Quiz-game/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/cybersecurity-notes.git
+git clone https://github.com/geratofe/cybersecurity-notes.git
 cd cybersecurity-notes/OSI-model/OSI-Quiz-game
 ```
 
